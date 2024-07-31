@@ -1,8 +1,8 @@
 const currentDateParagraph = document.getElementById("current-date");
 const dateOptionsSelectElement = document.getElementById("date-options");
 
-const date = new Date();
-const day = date.getDate();
+const date = new Date();      //built in constructor (just like function)
+const day = date.getDate();   //.getDate() is a method of the Date constructor
 const month = date.getMonth() + 1;
 const year = date.getFullYear();
 const hours = date.getHours();
